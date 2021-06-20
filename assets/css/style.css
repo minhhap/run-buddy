@@ -3,18 +3,21 @@
     padding: 0;
     box-sizing: border-box;
   }
+body {
+color: #39a6b2;
+font-family: Helvetica, Arial, sans-serif;
+}
 
 header {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(24, 144, 153);
-    padding: 10px;
+    background-color:#39a6b2;
+    padding: 20px 35px;
   }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
-    margin: 30px;
+    margin: 0px;
     display: inline;
   }
 
@@ -36,10 +39,6 @@ header nav ul li {
     font-weight: lighter;
     font-size: 22px;
   }
-
-h2 {
-    color: rgb(24, 144, 153);
-}
 
 footer {
     background: #fce138;
